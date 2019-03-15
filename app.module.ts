@@ -9,6 +9,7 @@ import { ColorPickerComponent } from './color-picker/color-picker.component';
 import { FontSizeEditorComponent } from './font-size-editor/font-size-editor.component';
 import { PetComponent } from './pet/pet.component';
 import { CalculatorNewComponent } from './calculator-new/calculator-new.component';
+import { ColorPickerNewComponent } from './color-picker-new/color-picker-new.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { CalculatorNewComponent } from './calculator-new/calculator-new.componen
     ColorPickerComponent,
     FontSizeEditorComponent,
     PetComponent,
-    CalculatorNewComponent
+    CalculatorNewComponent,
+    ColorPickerNewComponent
   ],
   imports: [
     BrowserModule,
